@@ -18,17 +18,18 @@ work:
       - position: Site Reliability Engineer
         start-date: 2024-02-05
         highlights:
-          - Supported on-call for the Enterprise Data team, responding to critical production issues and ensuring maximum uptime for the reference data platform used firm-wide, using RHEL, Microsoft SQL Server, Kubernetes, Terraform, Ansible, Datadog and Splunk.
-          - Performed detailed analysis of legacy reference data systems in Java/C++/Python/Perl upon request to clarify legacy business logic and data ingestion behaviour.
-          - Created various data pipelines to ensure the completeness of reference data, involving thorough data analysis to verify the correctness and accuracy of data ingested.
-          - Played a key role in various disaster recovery exercises by ensuring the successful failover of important legacy infrastructure, focusing on improving the monitoring and automation of failover systems.
-          - Conducted in-depth performance testing on both current and legacy reference data platforms, performing detailed analysis to identify scenarios resulting in degraded performance, and proposing improvements to ensure the reliability of these platforms.
+          - Supported the firm-wide reference data platform as part of the on-call rotation, responding to critical production issues through the use of RHEL, Microsoft SQL Server, Kubernetes, Terraform, Ansible, Datadog, Grafana and Splunk.
+          - Analysed legacy reference data systems written in Java, C++, Python and Perl to clarify business logic and data ingestion behaviour.
+          - Built pipelines to improve the completeness of reference data and verified its accuracy through in-depth analysis.
+          - Supported disaster recovery exercises by ensuring the successful failover of legacy infrastructure and improving failover monitoring and automation.
+          - Tested current and legacy reference data platforms to identify scenarios that led to degraded performance and proposed reliability improvements.
+          - Migrated the primary data ingestion platform from VMs to Kubernetes to improve scalability and availability, and enhanced observability by integrating OpenTelemetry and adopting structured logging.
       - position: Site Reliability Engineering Intern
         start-date: 2023-05-15
         end-date: 2023-08-04
         highlights:
-          - Migrated a critical data pipeline that processes data used in day-to-day trading from a legacy system, reducing the pipeline duration by 40x -- 90x.
-          - Deployed, maintained and documented a sandbox environment for an important internal system developed by the US team, greatly reducing developer friction for APAC SREs.
+          - Migrated a critical pipeline supplying data for daily trading from a legacy system, reducing runtime by a factor of 40--90.
+          - Deployed, maintained and documented a sandbox environment for an internal system developed by the US team, reducing development friction for APAC SREs.
   - organisation: Computing for Voluntary Welfare Organisations
     url: https://www.comp.nus.edu.sg/~vwo
     location: Singapore, Singapore
@@ -37,8 +38,8 @@ work:
         start-date: 2020-05-11
         end-date: 2020-08-07
         highlights:
-          - Collaborated with 2 VWOs to enhance their personnel management systems using Ruby on Rails and React.
-          - Took charge of UI/UX design to ensure a good user experience, reviewed pull requests by teammates to maintain code quality and communicated with clients to understand their requirements.
+          - Worked with 2 voluntary welfare organisations to enhance their personnel management systems using Ruby on Rails and React.
+          - Led UI/UX design, reviewed teammates' pull requests to maintain code quality and worked with clients to clarify requirements.
   - organisation: Singapore Armed Forces
     location: Singapore, Singapore
     positions:
@@ -47,7 +48,7 @@ work:
         end-date: 2019-02-06
         highlights:
           - Led a team of 3 to respond to chemical, biological and radiological (CBR) incidents in SAF camps.
-          - Ensured safety of key personnel during the 2018 North Korea-United States Singapore Summit.
+          - Ensured the safety of key personnel during the 2018 North Korea--United States summit.
   - organisation: The Commissioned
     location: Singapore, Singapore
     positions:
@@ -55,7 +56,7 @@ work:
         start-date: 2015-02-05
         end-date: 2015-04-30
         highlights:
-          - Worked remotely in collaboration with UI/UX engineers to improve the user interface for an affordable artwork commissioning platform.
+          - Collaborated remotely with UI/UX engineers to improve the interface of an affordable artwork commissioning platform.
   - organisation: RedMart
     url: https://redmart.lazada.sg
     location: Singapore, Singapore
@@ -64,8 +65,8 @@ work:
         start-date: 2014-11-05
         end-date: 2015-01-14
         highlights:
-          - Upgraded the frontend JavaScript framework from Backbone.js to React.
-          - Added suggested products to search autocomplete and a new tile-based landing page to the main website.
+          - Migrated the frontend from Backbone.js to React.
+          - Added product suggestions to search autocomplete and built a tile-based landing page.
 
 education:
   - institution: National University of Singapore
@@ -75,7 +76,7 @@ education:
     end-date: 2024-01-31
     degree: Bachelor of Computing in Computer Science (Honours) & Bachelor of Science with Major in Applied Mathematics
     honours:
-      - 4.77 / 5.00 CAP
+      - "CAP: 4.77/5.00"
       - Dean's List
       - NUS Merit Scholarship
     focus-areas:
@@ -93,39 +94,39 @@ activities:
     end-date: 2022-11-17
     position: Software Lead
     highlights:
-      - Developed software to enable underwater localisation and navigation, as well as underwater simulations using Gazebo/ROS to compete in the Singapore Autonomous Underwater Vehicle Challenge 2020.
-      - Implemented LiDAR segmentation and integrated machine learning into the computer vision pipeline to improve object detection capabilities for the Virtual Ocean Robotics Challenge 2020.
-      - Directed a team of 8 undergraduates, in addition to refactoring the machine learning pipeline, overhauling the team website, and producing the technical report for RoboSub 2021.
-      - Directed a team of 4 undergraduates, as well as refactored the behaviour-tree based mission planner for RoboSub 2022.
-      - Directed a team of 8 undergraduates to take part in RobotX 2022.
+      - Developed underwater localisation and navigation software and built simulations using Gazebo and ROS for the Singapore Autonomous Underwater Vehicle Challenge 2020.
+      - Implemented LiDAR segmentation and integrated machine learning into the computer vision pipeline to improve object detection for the Virtual Ocean Robotics Challenge 2020.
+      - Led 8 undergraduates for RoboSub 2021 and refactored the machine learning pipeline, overhauled the team website and produced the technical report.
+      - Led 4 undergraduates for RoboSub 2022 and refactored the behaviour-tree-based mission planner.
+      - Led 8 undergraduates for RobotX 2022.
 
 awards:
-  - title: 3rd Place in the Virtual Ocean Robotics Challenge 2020
-    issuer: Open Source Robotics Foundation
-    url: https://github.com/osrf/vorc
-    location: Singapore, Singapore
-    date: 2020-12-23
-  - title: Highest Overall Score in RoboSub 2021
-    issuer: RoboNation
-    url: https://robosub.org/programs/2021
-    location: Singapore, Singapore
-    date: 2021-08-07
-    highlights:
-      - 1st Place for the Website Design
-      - 2nd place for the Technical Design Report
-  - title: 1st Place in RoboSub 2022
-    issuer: RoboNation
-    url: https://robosub.org/programs/2022
-    location: Maryland, United States
-    date: 2022-08-02
-    highlights:
-      - 1st place in the Autonomy Challenge
-      - 1st place for the Design Documentation
   - title: 2nd Place in RobotX 2022
     issuer: RoboNation
     url: https://robotx.org/programs/robotx-challenge-2022
     location: Sydney, Australia
     date: 2022-11-17
     highlights:
-      - 2nd place in the Autonomy Challenge
-      - 1st place for the Design Documentation
+      - 2nd Place in the Autonomy Challenge
+      - 1st Place for Design Documentation
+  - title: 1st Place in RoboSub 2022
+    issuer: RoboNation
+    url: https://robosub.org/programs/2022
+    location: Maryland, United States
+    date: 2022-08-02
+    highlights:
+      - 1st Place in the Autonomy Challenge
+      - 1st Place for Design Documentation
+  - title: Highest Overall Score in RoboSub 2021
+    issuer: RoboNation
+    url: https://robosub.org/programs/2021
+    location: Singapore, Singapore
+    date: 2021-08-07
+    highlights:
+      - 1st Place for Website Design
+      - 2nd Place for Technical Design Report
+  - title: 3rd Place in the Virtual Ocean Robotics Challenge 2020
+    issuer: Open Source Robotics Foundation
+    url: https://github.com/osrf/vorc
+    location: Singapore, Singapore
+    date: 2020-12-23
